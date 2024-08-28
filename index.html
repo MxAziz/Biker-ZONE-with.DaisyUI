@@ -35,7 +35,7 @@
 <body class="font">
 
     <!-- style the header section -->
-    <header class="md:container mx-auto mb-[160px]">
+    <header class="container md:w-11/12 mx-auto mb-[160px]">
 
         <!-- navbar -->
         <nav class="mt-6 mb-12">
@@ -149,21 +149,83 @@
 
     </header>
 
-    <main class="md:container md:mx-auto">
+    <main class="container w-11/12 mx-auto">
 
         <!-- featured bike section -->
          <section class=" mb-32">
-            <div class="w-max mx-auto text-center mb-11">
-                <h3 class="text-5xl font-semibold">Fetured Bikes In This Year</h3>
+            <div class=" mx-auto text-center mb-11">
+                <h3 class="text-5xl font-semibold">Featured Bikes In This Year</h3>
                 <small class="text-[14px] font-semibold text-[#E76F51] border-b-2">Best bike collection</small>
             </div>
 
             <div class="lg:flex justify-around ">
-                <img class="grayscale" src="./images/others/feature-bike.png" alt="">
-                <img  src="./images/others/feature-bike.png" alt="">
-                <img class="grayscale"  src="./images/others/feature-bike.png" alt="">
+                <img class="grayscale mx-auto" src="./images/others/feature-bike.png" alt="">
+                <img class="mx-auto py-16 lg:py-0"  src="./images/others/feature-bike.png" alt="">
+                <img class="grayscale mx-auto"  src="./images/others/feature-bike.png" alt="">
             </div>
          </section>
+
+         <!-- latest news section -->
+          <section class="mb-20 lg:mb-40">
+            <h3 class="text-center text-5xl font-semibold text-[#0A0826] mb-11">latest News</h3>
+            <!-- card container -->
+             <div class="lg:grid grid-cols-3 gap-5 space-y-5 lg:space-y-0">
+              <!-- card 1 -->
+              <div class="card card-compact bg-base-100 w-96 shadow-xl mx-auto ">
+                <figure>
+                  <img
+                    class=" mt-5"
+                    src="./images/others/latest1.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions ">
+                    <button class="btn bg-[#E76F51] text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="card card-compact bg-base-100 w-96 shadow-xl mx-auto ">
+                <figure>
+                  <img
+                    class=" mt-5"
+                    src="./images/others/latest1.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Motorcycles & Scooters</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions ">
+                    <button class="btn  text-[#E76F51] border border-red-400 bg-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div class="card card-compact bg-base-100 w-96 shadow-xl mx-auto ">
+                <figure>
+                  <img
+                    class=" mt-5"
+                    src="./images/others/latest1.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">2021 Honda CBR500R</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions ">
+                    <button class="btn text-[#E76F51] border border-red-400 bg-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+             </div>
+          </section>
+
+          <!-- happy clients section -->
+           <section class="">
+            <h3 class="text-center text-5xl font-semibold text-[#0A0826] mb-11">Happy <span class="text-[#E76F51]">Clients says</span></h3>
+
+           </section>
 
     </main>
 
